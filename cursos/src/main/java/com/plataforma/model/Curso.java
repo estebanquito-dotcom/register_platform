@@ -38,6 +38,10 @@ public class Curso {
         this.nombre = nombre;
     }
 
+    public void setEstudiante(Estudiante estudiante){
+        this.estudiantes.add(estudiante);
+    }
+
     @Override
     public String toString() {
         return "Curso{" +
