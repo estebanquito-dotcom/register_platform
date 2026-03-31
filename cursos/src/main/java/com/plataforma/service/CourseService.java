@@ -23,6 +23,14 @@ public class CourseService {
 
     //create course method; name;code; and capacity.
     public void addCourse(String code, String name,int capacity){
+        for(Course course : courses){
+            if(course.getCode().equals(code)){
+                String error = "Course by code "+code+" already exist, verify code, please";
+                logger.warn(error);
+                throw new CourseFullException(error);
+            }
+        }
+
         Course newCourse = new Course(code,name,capacity);
         courses.add(newCourse);
         logger.info("Curso: "+name+" created succefully");
@@ -31,7 +39,7 @@ public class CourseService {
 
 
 
-    //list available courses /isnt full
+    //list available courses /if isnt full
     public List<Course> listAvailableCourses(){
         List<Course> availableCourses = new ArrayList<>();
 

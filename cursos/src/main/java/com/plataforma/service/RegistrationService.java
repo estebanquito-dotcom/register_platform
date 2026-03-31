@@ -7,8 +7,8 @@ import java.util.List;
 import org.apache.logging.log4j.*;
 
 import com.plataforma.exception.CourseFullException;
-import com.plataforma.exception.NotFoundException;
 
+import com.plataforma.exception.StudentNotFoundException;
 import com.plataforma.model.Course;
 import com.plataforma.model.Registration;
 import com.plataforma.model.Student;
@@ -40,7 +40,7 @@ public class RegistrationService {
     }
 
     
-    //list registrations or  by student,
+    //list registrations by student,
     public List<Registration> listRegistrationsByStudent(Student student){
         
         List<Registration> studentRegistrations = new ArrayList<>();
@@ -52,9 +52,9 @@ public class RegistrationService {
         }
 
         if(studentRegistrations.isEmpty()){
-            String error = "The student identify by ID: "+student.getId() +"doesnt have any registration in system";
+            String error = "The student identify by ID: "+student.getId() +"Not found";
             logger.warn(error);
-            throw new NotFoundException(error);
+            throw new StudentNotFoundException(error);
         }
 
         return studentRegistrations;
