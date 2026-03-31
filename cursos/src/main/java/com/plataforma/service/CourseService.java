@@ -2,7 +2,10 @@ package com.plataforma.service;
 
 
 
-public class InscripcionService {
 
+
+public class CourseService {
+
+    
 
 }

@@ -1,6 +1,6 @@
 package com.plataforma.model;
 
-
+import java.util.List;
 
 public class Course {
 
@@ -8,6 +8,8 @@ public class Course {
     private String code;
     private String name;
     private String capacity;
+    private List<Student>students;
+ 
     
     //constructor
     public Course(String code, String name, String capacity) {
@@ -35,6 +37,22 @@ public class Course {
     public void setCapacity(String capacity) {
         this.capacity = capacity;
     }
+
+    public List<Student> getStudents() {
+        return students;
+    }
+
+    public void setStudents(List<Student> students) {
+        this.students = students;
+    }
+
+    
+
+
+
+
+
+    
 
 
     
