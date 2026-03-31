@@ -1,12 +1,14 @@
 package com.plataforma.service;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.logging.log4j.*;
 
 import com.plataforma.exception.CourseFullException;
-import com.plataforma.exception.StudentNotFoundException;
+import com.plataforma.exception.NotFoundException;
+
 import com.plataforma.model.Course;
 import com.plataforma.model.Registration;
 import com.plataforma.model.Student;
@@ -38,51 +40,26 @@ public class RegistrationService {
     }
 
     
-    //list registrations or courses by student, by id.
-    //the problem here is, the header realease before the exception, but this was own idea, absolutely.
-    public void listRegistrationsByStudent(int id){
-        boolean found= false;
-        int count=1;
-        logger.info("Searching Student Registrations by ID"+id);
-        System.out.println("Registrations For Student ID: "+id);
-        for(Registration registration : registrations){
-            if(registration.getStudent().getId()==id){
-                System.out.println(count+". - "+registration.getCourse().getName());
-                found=true;
-                count++;
-            }
-        }
-
-        if(!found){
-            String error="The student indetify by ID: "+id+" doesnt exist";
-            logger.warn(error);
-            throw new StudentNotFoundException(error);
-
-        }
+    //list registrations or  by student,
+    public List<Registration> listRegistrationsByStudent(Student student){
         
-
-    }
-
-    //in this case AI advices, casue i hadnt though this way to dont show the header before the exception.
-    public void listRegistrationsByStudentByList(int id){
-        List<String> registrationsFound = new ArrayList<>();
+        List<Registration> studentRegistrations = new ArrayList<>();
 
         for(Registration registration: registrations){
-            if(registration.getStudent().getId()==id){
-                registrationsFound.add(registration.getCourse().getName());
+            if(registration.getStudent().getId()==student.getId()){
+                studentRegistrations.add(registration);
             }
         }
-        if(registrationsFound.isEmpty()){
-            String error = "The student indetify by ID: "+id+" doesnt exist";
-            logger.warn(error);
-            throw new StudentNotFoundException(error);
-        }
-        System.out.println("Showing Courses for Student ID: " + id);
-        for(int i=0;i<=registrationsFound.size();i++){
-            System.out.println((i+1)+". -"+registrationsFound.get(i));
-        }
-    }
 
+        if(studentRegistrations.isEmpty()){
+            String error = "The student identify by ID: "+student.getId() +"doesnt have any registration in system";
+            logger.warn(error);
+            throw new NotFoundException(error);
+        }
+
+        return studentRegistrations;
+
+    }
 
 
     
