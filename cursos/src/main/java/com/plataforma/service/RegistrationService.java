@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.apache.logging.log4j.*;
 
+import com.plataforma.exception.CourseFullException;
 import com.plataforma.model.Course;
 import com.plataforma.model.Registration;
 import com.plataforma.model.Student;
@@ -19,9 +20,16 @@ public class RegistrationService {
         this.registrations = new ArrayList<>(); 
     }
 
-    public void RegisterStudent(Course course,Student student){
-        Registration registration = new Registration(course, student);
-        registrations.add(registration);
+    public void registerStudent(Student student, Course course){
+        if(!course.isFull()){
+            Registration registration = new Registration(course, student);
+            registrations.add(registration);
+            registration.getCourse().addStudent(student);
+            logger.info("The Student: "+student.getName()+" has been registered succesfully: "+course.getName());
+            return;
+        }
+        throw new CourseFullException("The course: "+course.getName()+" is full");
+            
     }
 
 }

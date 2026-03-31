@@ -2,17 +2,19 @@ package com.plataforma.model;
 
 import java.util.List;
 
+
+
 public class Course {
 
     //attributes
     private String code;
     private String name;
-    private String capacity;
+    private int capacity;
     private List<Student>students;
  
     
     //constructor
-    public Course(String code, String name, String capacity) {
+    public Course(String code, String name, int capacity) {
         this.code = code;
         this.name = name;
         this.capacity = capacity;
@@ -31,10 +33,10 @@ public class Course {
     public void setName(String name) {
         this.name = name;
     }
-    public String getCapacity() {
+    public int getCapacity() {
         return capacity;
     }
-    public void setCapacity(String capacity) {
+    public void setCapacity(int capacity) {
         this.capacity = capacity;
     }
 
@@ -44,6 +46,17 @@ public class Course {
 
     public void setStudents(List<Student> students) {
         this.students = students;
+    }
+
+    public boolean isFull(){
+        if(this.capacity>=students.size()){
+            return true;
+        }
+        return false;
+    }
+
+    public void addStudent(Student student){
+        this.students.add(student);
     }
 
     
