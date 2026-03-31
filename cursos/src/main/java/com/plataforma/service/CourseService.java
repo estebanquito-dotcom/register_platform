@@ -7,6 +7,7 @@ import java.util.List;
 
 import org.apache.logging.log4j.*;
 
+import com.plataforma.exception.CourseDuplicateException;
 import com.plataforma.exception.CourseFullException;
 import com.plataforma.exception.NotFoundException;
 import com.plataforma.model.Course;
@@ -25,9 +26,9 @@ public class CourseService {
     public void addCourse(String code, String name,int capacity){
         for(Course course : courses){
             if(course.getCode().equals(code)){
-                String error = "Course by code "+code+" already exist, verify code, please";
+                String error = "Course by code "+code+" already exist";
                 logger.warn(error);
-                throw new CourseFullException(error);
+                throw new CourseDuplicateException(error);
             }
         }
 
