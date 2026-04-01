@@ -29,3 +29,40 @@
 2026-04-01 10:07:59 INFO  CourseService:21 - CursoService Initialized
 2026-04-01 10:07:59 INFO  CourseService:52 - course added succesfully
 2026-04-01 10:07:59 WARN  CourseService:46 - The course with code: 1J already exist
+2026-04-01 10:22:19 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 10:22:19 WARN  CourseService:73 - All Courses are Full
+2026-04-01 10:25:21 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 10:25:21 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:25:21 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:25:21 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:25:34 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 10:25:34 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:25:34 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:25:34 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:25:48 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 10:25:48 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:25:48 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:25:48 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:28:02 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 10:28:02 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:28:02 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:28:02 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:28:02 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 10:28:02 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:28:02 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:28:02 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:28:02 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 10:28:02 INFO  CourseService:37 - Curso: java basic created succefully
+2026-04-01 10:28:02 INFO  CourseService:37 - Curso: python intermedium created succefully
+2026-04-01 10:28:02 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 10:28:02 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:28:02 WARN  CourseService:46 - The course with code: 1J already exist
+2026-04-01 10:28:30 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 10:28:30 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:28:30 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:28:30 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:37:41 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 10:37:41 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:37:41 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:37:41 INFO  CourseService:52 - course added succesfully
+2026-04-01 10:37:41 WARN  CourseService:73 - All Courses are Full
