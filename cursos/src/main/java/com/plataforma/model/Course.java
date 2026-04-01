@@ -1,5 +1,6 @@
 package com.plataforma.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -18,6 +19,7 @@ public class Course {
         this.code = code;
         this.name = name;
         this.capacity = capacity;
+        this.students = new ArrayList<>();
     }
     
     //methods
@@ -49,7 +51,7 @@ public class Course {
     }
 
     public boolean isFull(){
-        if(this.capacity>=students.size()){
+        if(students.size()>=this.capacity){
             return true;
         }
         return false;

@@ -1,0 +1,14 @@
+2026-04-01 08:31:09 INFO  Main:20 - Main Function Initialized
+2026-04-01 08:31:09 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 08:31:09 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 08:31:09 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 08:31:09 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 08:31:09 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Web Development Vue.js
+2026-04-01 08:31:09 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Web Development Vue.js
+2026-04-01 08:31:49 INFO  Main:20 - Main Function Initialized
+2026-04-01 08:31:49 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 08:31:49 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 08:31:49 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 08:31:49 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 08:31:49 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 08:31:49 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic

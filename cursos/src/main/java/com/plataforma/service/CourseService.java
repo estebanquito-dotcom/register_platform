@@ -38,6 +38,24 @@ public class CourseService {
 
     }
 
+    public void addCourseCreated(Course newCourse){
+        
+        for(Course course : courses){
+            if(course.getCode().equals(newCourse.getCode())){
+                String error = "The course with code: "+newCourse.getCode()+" already exist";
+                logger.warn(error);
+                throw new CourseDuplicateException(error);
+            }
+        }
+
+        courses.add(newCourse);
+        logger.info("course added succesfully");
+    }
+
+    public List<Course> listCourses(){
+        return courses;
+    }
+
 
 
     //list available courses /if isnt full
