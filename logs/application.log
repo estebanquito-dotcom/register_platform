@@ -176,3 +176,24 @@
 2026-04-01 15:14:34 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
 2026-04-01 15:14:34 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Database SQL
 2026-04-01 15:15:14 INFO  StudentService:29 - Student: esteban registered succesfully
+2026-04-01 17:28:32 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 17:28:32 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 17:28:32 INFO  StudentService:17 - StudentService Initialized
+2026-04-01 17:28:32 INFO  Main:49 - main initialized
+2026-04-01 17:28:32 INFO  StudentService:30 - Student: Paquito registered succesfully
+2026-04-01 17:28:32 INFO  StudentService:30 - Student: Lucía registered succesfully
+2026-04-01 17:28:32 INFO  StudentService:30 - Student: Mateo registered succesfully
+2026-04-01 17:28:32 INFO  StudentService:30 - Student: Valeria registered succesfully
+2026-04-01 17:28:32 INFO  CourseService:52 - course added succesfully
+2026-04-01 17:28:32 INFO  CourseService:52 - course added succesfully
+2026-04-01 17:28:32 INFO  CourseService:52 - course added succesfully
+2026-04-01 17:28:32 INFO  CourseService:52 - course added succesfully
+2026-04-01 17:28:32 INFO  CourseService:52 - course added succesfully
+2026-04-01 17:28:32 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 17:28:32 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 17:28:32 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 17:28:32 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 17:28:32 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Database SQL
+2026-04-01 17:29:19 INFO  StudentService:30 - Student: esteban registered succesfully
+2026-04-01 17:29:58 WARN  RegistrationService:56 - The student identify by ID: 10Not found
+2026-04-01 17:31:22 WARN  CourseService:30 - Course by code 2B already exist
