@@ -41,18 +41,18 @@ public class RegistrationService {
 
     
     //list registrations by student,
-    public List<Registration> listRegistrationsByStudent(Student student){
+    public List<Registration> listRegistrationsByStudent(int id){
         
         List<Registration> studentRegistrations = new ArrayList<>();
 
         for(Registration registration: registrations){
-            if(registration.getStudent().getId()==student.getId()){
+            if(registration.getStudent().getId()==id){
                 studentRegistrations.add(registration);
             }
         }
 
         if(studentRegistrations.isEmpty()){
-            String error = "The student identify by ID: "+student.getId() +"Not found";
+            String error = "The student identify by ID: "+ id +"Not found";
             logger.warn(error);
             throw new StudentNotFoundException(error);
         }

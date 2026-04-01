@@ -12,3 +12,167 @@
 2026-04-01 08:31:49 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
 2026-04-01 08:31:49 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
 2026-04-01 08:31:49 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 11:48:09 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 11:48:09 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 11:48:09 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 11:48:09 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 11:48:09 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 11:48:09 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 11:54:56 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 11:54:56 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 11:54:56 INFO  Main:33 - main initialized
+2026-04-01 11:54:56 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 11:54:56 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 11:54:56 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 11:54:56 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 11:55:22 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 11:55:22 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 11:55:22 INFO  Main:33 - main initialized
+2026-04-01 11:55:22 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 11:55:22 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 11:55:22 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 11:55:22 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 11:58:39 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 11:58:39 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 11:58:39 INFO  Main:33 - main initialized
+2026-04-01 11:58:39 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 11:58:39 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 11:58:39 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 11:58:39 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 12:37:31 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 12:37:31 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 12:37:31 INFO  Main:38 - main initialized
+2026-04-01 12:37:31 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 12:37:31 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 12:37:31 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 12:37:31 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 12:44:14 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 12:44:14 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 12:44:14 INFO  Main:38 - main initialized
+2026-04-01 12:44:14 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 12:44:14 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 12:44:14 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 12:44:14 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 12:45:19 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 12:45:19 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 12:45:19 INFO  Main:38 - main initialized
+2026-04-01 12:45:19 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 12:45:19 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 12:45:19 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 12:45:19 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 12:57:14 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 12:57:14 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 12:57:14 INFO  Main:38 - main initialized
+2026-04-01 12:57:14 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 12:57:14 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 12:57:14 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 12:57:14 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 12:57:34 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 12:57:34 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 12:57:34 INFO  Main:38 - main initialized
+2026-04-01 12:57:34 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 12:57:34 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 12:57:34 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 12:57:34 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 12:58:15 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 12:58:15 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 12:58:15 INFO  Main:38 - main initialized
+2026-04-01 12:58:15 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 12:58:15 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 12:58:15 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 12:58:15 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 12:59:57 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 12:59:57 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 12:59:57 INFO  Main:38 - main initialized
+2026-04-01 12:59:57 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 12:59:57 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 12:59:57 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 12:59:57 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 13:02:14 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 13:02:14 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 13:02:14 INFO  Main:38 - main initialized
+2026-04-01 13:02:14 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 13:02:14 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 13:02:14 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 13:02:14 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 13:02:50 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 13:02:50 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 13:02:50 INFO  Main:38 - main initialized
+2026-04-01 13:02:50 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 13:02:50 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 13:02:50 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 13:02:50 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 13:03:04 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 13:03:04 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 13:03:04 INFO  Main:38 - main initialized
+2026-04-01 13:03:04 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 13:03:04 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 13:03:04 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 13:03:04 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 13:05:03 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 13:05:03 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 13:05:03 INFO  Main:38 - main initialized
+2026-04-01 13:05:03 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 13:05:03 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 13:05:03 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 13:05:03 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 13:05:46 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 13:05:46 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 13:05:46 INFO  Main:38 - main initialized
+2026-04-01 13:05:46 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 13:05:46 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 13:05:46 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 13:05:46 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 14:06:52 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 14:06:52 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 14:06:52 INFO  Main:43 - main initialized
+2026-04-01 14:06:52 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 14:06:52 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 14:06:52 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 14:06:52 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 14:06:52 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Database SQL
+2026-04-01 14:10:40 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 14:10:40 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 14:10:40 INFO  Main:43 - main initialized
+2026-04-01 14:10:40 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 14:10:40 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 14:10:40 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 14:10:40 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 14:10:40 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Database SQL
+2026-04-01 14:12:47 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 14:12:47 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 14:12:47 INFO  Main:43 - main initialized
+2026-04-01 14:12:47 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 14:12:47 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 14:12:47 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 14:12:47 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 14:12:47 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Database SQL
+2026-04-01 14:15:19 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 14:15:19 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 14:15:19 INFO  StudentService:16 - StudentService Initialized
+2026-04-01 14:15:19 INFO  Main:43 - main initialized
+2026-04-01 14:15:19 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 14:15:19 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 14:15:19 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 14:15:19 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 14:15:19 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Database SQL
+2026-04-01 14:15:46 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 14:15:46 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 14:15:46 INFO  StudentService:16 - StudentService Initialized
+2026-04-01 14:15:46 INFO  Main:43 - main initialized
+2026-04-01 14:15:46 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 14:15:46 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 14:15:46 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 14:15:46 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 14:15:46 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Database SQL
+2026-04-01 14:16:13 INFO  StudentService:29 - Student: esteban registered succesfully
+2026-04-01 15:14:34 INFO  CourseService:21 - CursoService Initialized
+2026-04-01 15:14:34 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 15:14:34 INFO  StudentService:16 - StudentService Initialized
+2026-04-01 15:14:34 INFO  Main:43 - main initialized
+2026-04-01 15:14:34 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Web Development Vue.js
+2026-04-01 15:14:34 INFO  RegistrationService:33 - The Student: Lucía has been registered succesfully: Web Development Vue.js
+2026-04-01 15:14:34 INFO  RegistrationService:33 - The Student: Mateo has been registered succesfully: Java Basic
+2026-04-01 15:14:34 INFO  RegistrationService:33 - The Student: Valeria has been registered succesfully: Java Basic
+2026-04-01 15:14:34 INFO  RegistrationService:33 - The Student: Paquito has been registered succesfully: Database SQL
+2026-04-01 15:15:14 INFO  StudentService:29 - Student: esteban registered succesfully

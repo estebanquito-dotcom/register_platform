@@ -58,7 +58,7 @@ public class RegistrationServiceTest {
     void listRegistrationsByStudentTest(){
 
         Course course1 = new Course("1J", "java basic", 1);
-        Course course2 = new Course("1P", "python intermedium", 1);
+
         Course course3 = new Course("1S", "spring security", 2);
 
         Student student1 = new Student("paquito", 1, "paquito@gmail.com ");
@@ -67,7 +67,7 @@ public class RegistrationServiceTest {
         registrationService.registerStudent(student1, course3);
         registrationService.registerStudent(student1, course1);
         registrationService.registerStudent(student2, course3);
-        assertEquals(2, registrationService.listRegistrationsByStudent(student1).size());
+        assertEquals(2, registrationService.listRegistrationsByStudent(student1.getId()).size());
 
     }
 
