@@ -69,7 +69,7 @@ public class Main {
     //interface methods
     public static void mainMenu(){
 
-        int option = 0;
+        
 
         
         var options = """
@@ -163,8 +163,8 @@ public class Main {
      }
 
 
-    public void listRegistrations(){
-        int close=0;
+    public static void listRegistrations(){
+
         int count =1;
         System.out.println("Registrations in System: ");
         for(Registration registration : registrationService.listRegistrations()){
@@ -174,8 +174,8 @@ public class Main {
 
     }
 
-    public void listRegistrationsByStudent (){
-        int close=0;
+    public static void listRegistrationsByStudent (){
+
         int count =0;
         int id=0;
 
@@ -192,8 +192,8 @@ public class Main {
         }
     }
 
-    public void registerStudentToCourse(){
-        int close = 0;
+    public static void registerStudentToCourse(){
+
         int id = 0;
         String code;
         System.out.println("Type The Student Id: ");
@@ -207,14 +207,39 @@ public class Main {
         logger.info("the student: "+id+" has been registered to "+course.getName()+" succesfully");
     }
 
-    public void registerCourse(){
+    public static void registerCourse(){
         
         String name,code;
         int capacity=0;
 
-        
-        
-        
-        courseService.addCourse(null, null, 0);
+        System.out.println("Type The Code Course");
+        code = entry.nextLine();
+        System.out.println("Type The Name Course");
+        name = entry.nextLine();
+        System.out.println("Type The Maximum Capacity Course");
+        capacity = entry.nextInt();
+        entry.nextLine();
+        courseService.addCourse(code,name,capacity);
+
+        logger.info("Course Created Succesfully:{}{}{} ",name, code, capacity );
+
+
+    }
+
+    public static void searchCourseByCode(){
+        String code ;
+        System.out.println("Type The Course Code to Search: ");
+        code = entry.nextLine();
+        Course course =courseService.searchCourseByCode(code);
+        System.out.println("course has found:\n course Code: "+course.getCode()+" Course Name: "+course.getName());
+    }
+
+    public static void listAvailableCourses(){
+        int count =1;
+        System.out.println("Available Courses :");
+        for(Course course : courseService.listAvailableCourses()){
+            System.out.println(count+". - Course Name :"+course.getName());
+            count ++;
+        }
     }
 }
