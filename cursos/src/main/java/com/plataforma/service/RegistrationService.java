@@ -61,6 +61,10 @@ public class RegistrationService {
 
     }
 
+    public List<Registration> listRegistrations(){
+        return registrations;
+    }
+
 
     
 

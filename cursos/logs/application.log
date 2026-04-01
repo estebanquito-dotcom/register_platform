@@ -66,3 +66,24 @@
 2026-04-01 10:37:41 INFO  CourseService:52 - course added succesfully
 2026-04-01 10:37:41 INFO  CourseService:52 - course added succesfully
 2026-04-01 10:37:41 WARN  CourseService:73 - All Courses are Full
+2026-04-01 10:55:15 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 10:55:15 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: java basic
+2026-04-01 10:56:20 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 10:56:20 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: python intermedium
+2026-04-01 10:56:20 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: spring security
+2026-04-01 10:56:20 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: java basic
+2026-04-01 10:56:27 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 10:56:27 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: python intermedium
+2026-04-01 10:56:27 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: spring security
+2026-04-01 10:56:27 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: java basic
+2026-04-01 11:07:04 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 11:07:04 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: java basic
+2026-04-01 11:07:04 WARN  RegistrationService:37 - The course: java basic is full
+2026-04-01 11:18:20 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 11:18:20 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: spring security
+2026-04-01 11:18:20 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: java basic
+2026-04-01 11:18:20 INFO  RegistrationService:33 - The Student: juanito has been registered succesfully: spring security
+2026-04-01 11:18:42 INFO  RegistrationService:22 - RegistrationService Initialized
+2026-04-01 11:18:42 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: spring security
+2026-04-01 11:18:42 INFO  RegistrationService:33 - The Student: paquito has been registered succesfully: java basic
+2026-04-01 11:18:42 INFO  RegistrationService:33 - The Student: juanito has been registered succesfully: spring security
