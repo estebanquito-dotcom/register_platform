@@ -7,7 +7,7 @@ The main goal was to move away from basic arrays and start using more profession
 
 ## What I learned and implemented
 
-### 1. Goodbye Arrays, Hello Lists
+### 1. Lists
 In my previous exercises, I used standard Arrays, but they are a headache because you have to "rebuild" them every time you want to add an item. 
 * In this project, I used **Java Lists** (`ArrayList`).
 * I learned how to iterate through them efficiently and how to filter data in a single pass to keep the program fast.
