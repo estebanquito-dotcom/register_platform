@@ -1,54 +1,41 @@
-# Online Course Platform Simulation - Backend
+# Online Course Platform - Simple Backend Simulation
 
-## Overview
-This project is a functional simulation of an online course enrollment system. It manages students, courses, and the registration process using a robust service-oriented architecture. The system is designed to handle business rules, such as course capacity limits and duplicate record prevention, while maintaining high performance through efficient data handling.
+## What is this?
+This is a small project I built in two days to practice Java fundamentals. It’s a console-based simulation of an online school where you can manage students, create courses, and handle enrollments.
 
-Developed as part of the **Java Senior with AI** program at **DevSenior Code Startup**, this project marks a transition from basic programming to professional software development practices.
+The main goal was to move away from basic arrays and start using more professional tools like Lists and Services.
 
-## Technical Milestones
+## What I learned and implemented
 
-### 1. Data Structure Optimization
-I moved from using traditional **Arrays** to **Java Collections (Lists)**. 
-* **The Problem:** Arrays are static and require full reconstruction to change their size, which is a major performance bottleneck.
-* **The Solution:** Implementing `ArrayList` allowed for dynamic data management and more efficient iteration. I learned to navigate, filter, and process these lists using a "single-pass" approach to minimize computational costs.
+### 1. Goodbye Arrays, Hello Lists
+In my previous exercises, I used standard Arrays, but they are a headache because you have to "rebuild" them every time you want to add an item. 
+* In this project, I used **Java Lists** (`ArrayList`).
+* I learned how to iterate through them efficiently and how to filter data in a single pass to keep the program fast.
 
-### 2. Service-Oriented Architecture (SOA)
-I decoupled the business logic from the entities (Models). 
-* **Entities:** Now act as POJOs (Plain Old Java Objects) focusing only on data representation.
-* **Services:** Specific classes like `StudentService`, `CourseService`, and `RegistrationService` contain all the logic. This makes the code modular, easier to maintain, and testable.
+### 2. Organizing the Code (Services)
+Instead of putting all the logic inside the Student or Course classes, I created **Services**. 
+* The entities (Student, Course) only hold the data.
+* The **Services** do the heavy lifting (searching, validating if a course is full, checking for duplicates).
+* This made the code much easier to read and debug.
 
-### 3. Advanced Error Handling
-The application is built to be resilient. Instead of crashing on invalid input, it uses a custom exception hierarchy:
-* **Business Exceptions:** Created specific classes like `CourseDuplicateException`, `StudentNotFoundException`, and `CourseFullException`.
-* **Resilience:** Implemented a "Fail-Fast" strategy where errors are thrown early in the services and caught at the interface level (Main), allowing the program to recover and continue running.
+### 3. Handling Errors without Crashing
+I wanted a program that doesn't just "break" when something goes wrong. 
+* I created **Custom Exceptions** for specific business rules (e.g., `CourseFullException` or `StudentNotFound`).
+* The program is now resilient: if you enter a wrong ID, it shows a warning and takes you back to the menu instead of closing the app.
 
-### 4. Quality Assurance with JUnit
-Reliability was verified through **Unit Testing**:
-* **Functional Tests:** Validated the correct creation and storage of entities.
-* **Edge Case Testing:** Specifically tested exceptions to ensure business rules are enforced (e.g., ensuring a student cannot register for a full course).
-
-### 5. Professional Logging
-I replaced standard console prints with **Apache Log4j2** for better auditing:
-* **Console Logs:** For real-time monitoring of the application flow.
-* **File Logs:** Persistent storage of warnings and errors, allowing for historical review of system behavior and warnings.
+### 4. Testing and Logging
+* **JUnit:** I wrote unit tests for the main functions to make sure the creation and enrollment logic actually works.
+* **Log4j2:** I added logging to both the console and a file. This helps to track what the program is doing and where the warnings are happening without filling the user screen with technical mess.
 
 ## Features
-* **Student Management:** System-wide registration and search by ID.
-* **Course Catalog:** Management of courses with unique codes and specific seat capacities.
-* **Enrollment Engine:** Handles the link between students and courses with automatic capacity validation.
-* **Single-Pass Reports:** Efficiently lists all registrations for a specific student without redundant loops.
+* Register students and courses.
+* Enroll students in courses (with a maximum capacity limit).
+* Search for all courses a specific student is taking.
+* List all available courses in the system.
 
-## Technical Stack
-* **Language:** Java 17+
-* **Testing Framework:** JUnit 5
-* **Logging Library:** Log4j2
-* **Project Structure:** Modular Service-Repository pattern
-
-## How to Run
-1. Clone the repository.
-2. Ensure Java 17 is installed in your environment.
-3. Run the `Main.java` class to start the console interface.
-4. Use the numeric menu to navigate through the management modules.
+## How to run it
+1. Make sure you have Java 17.
+2. Run the `Main.java` file.
+3. Use the types to navigate the menu.
 
 ---
-*Developed by [Your Name/Github Username]*
